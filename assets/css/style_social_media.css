@@ -1,0 +1,144 @@
+body {
+    font-family: Arial;
+}
+
+@font-face {
+  font-family: 'IcomoonSocial';
+  src: url('../fonts/IcomoonSocial.eot');
+  src: url('../fonts/IcomoonSocial.eot?#iefix') format('embedded-opentype'), url('../fonts/IcomoonSocial.woff') format('woff'), url('../fonts/IcomoonSocial.ttf') format('truetype'), url('../fonts/IcomoonSocial.svg#IcomoonSocial') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+[class*="nbs-social"] {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 2px;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+  color: #fff;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  text-decoration:none;
+}
+[class*="nbs-social"]:hover {
+  top: -30px;
+  background: #666;
+  color: #fff;
+}
+[class*="nbs-social"]:before {
+  font-family: 'IcomoonSocial';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*** RSS ***/
+.nbs-social-rss {
+  background: #e0812a;
+}
+.nbs-social-rss:before {
+  content: "\e005";
+}
+/* Variations: "\e006" "\e007" */
+/*** MAIL ***/
+.nbs-social-mail {
+  background: #999;
+}
+.nbs-social-mail:before {
+  content: "\e00b";
+}
+.nbs-social-mail:hover {
+  color: #fff;
+}
+/* Variations: "\e009" "\e00b" "\e00c" */
+/*** FACEBOOK ***/
+.nbs-social-facebook {
+  background: #3b5997;
+}
+.nbs-social-facebook:before {
+  content: "\e000";
+}
+/* Variations: "\e001" "\e002" */
+/*** TWITTER ***/
+.nbs-social-twitter {
+  background: #41b7d8;
+  color: #fff;
+}
+.nbs-social-twitter:before {
+  content: "\e008";
+}
+/* Variations: "\e003" "\e004" */
+/*** GOOGLE+ ***/
+.nbs-social-googleplus {
+  background: #d64937;
+}
+.nbs-social-googleplus:before {
+  content: "\e00e";
+}
+/* Variations: "\e00f" "\e010" "\e011" */
+/*** YOU TUBE ***/
+.nbs-social-youtube {
+  background: #cd322c;
+}
+.nbs-social-youtube:before {
+  content: "\e013";
+}
+/* Variations: "\e014" */
+/*** VIMEO ***/
+.nbs-social-vimeo {
+  background: #388fc5;
+}
+.nbs-social-vimeo:before {
+  content: "\e015";
+}
+/* Variations: "\e016" "\e017" */
+/*** LINKED IN ***/
+.nbs-social-linkedin {
+  background: #0073b2;
+}
+.nbs-social-linkedin:before {
+  content: "\e024";
+}
+/*** FLICKR ***/
+.nbs-social-flickr {
+  background: #ff0084;
+}
+.nbs-social-flickr:before {
+  content: "\e019";
+}
+/* Variations: "\e018" "\e01a" "\e01b" */
+/*** YELP ***/
+.nbs-social-yelp {
+  background: #e11500;
+}
+.nbs-social-yelp:before {
+  content: "\e023";
+}
+/*** PINTEREST ***/
+.nbs-social-pinterest {
+  background: #cb2027;
+}
+.nbs-social-pinterest:before {
+  content: "\e026";
+}
+/* Variations: "\e025" */
+/*** GIT HUB ***/
+.nbs-social-github {
+  background: #000;
+  color: #fff;
+}
+.nbs-social-github:before {
+  content: "\e021";
+}
+/* Variations:  "\e01e" "\e01f" "\e020" "\e021" "\e022" */

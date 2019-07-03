@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'BRLNSR';
+	src: url(../fonts/BRLNSR.ttf);
+	src: local('BRLNSR'), url('../fonts/BRLNSR.woff') format('woff'),
+		 url('../fonts/BRLNSR.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url(../fonts/MyriadPro-Regular.ttf);
+	src: local('BRLNSR'),
+		 url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		 url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../fonts/OpenSans-Light.ttf);
+	src: local('Open Sans'),
+		 url('../fonts/OpenSans-Light.ttf') format('ttf'),
+		 url('../fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url(../fonts/SegoeUI.ttf);
+	src: url('../fonts/SegoeUI.ttf') format('truetype'),
+		 url('../fonts/SegoeUI.ttf.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dosis Light'),
+  	   local('Dosis-Light'),
+  	   url(../fonts/Dosis-Light.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src:  local('Dosis Medium'),
+  		local('Dosis-Medium'),
+  		url(../fonts/Dosis-Medium.woff2) format('woff2');
+}

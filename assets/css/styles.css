@@ -1,0 +1,75 @@
+/* COMMON STYLES */
+.msg-new-account, .msg-login {
+	color: #495057;
+	font-size: 15px;
+	font-weight: 500;
+	text-align: center;
+}
+
+/* LOGIN STYLES */
+.login-form {
+	background-color: #f8f9fa;
+	border-radius: 8px;
+	border: 1px solid #ced4da;
+	margin: 40px auto;
+	max-width: 450px;
+	padding: 30px;
+}
+
+.rememberme {
+	color: #495057;
+	font-size: 14px;
+	margin-top: 15px;
+	user-select: none;
+}
+
+/* REGISTRATION STYLES */
+.msg-privacy {
+	color: #495057;
+	font-size: 14px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+	color: rgba(255, 255, 255, .5);
+}
+
+.border-top {
+	border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.border-top-gray {
+	border-top-color: #adb5bd;
+}
+
+.box-shadow {
+	box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.lh-condensed {
+	line-height: 1.25;
+}
+
+.navbar-login {
+	width: 305px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+.navbar-login-session {
+	padding: 10px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.icon-size {
+	font-size: 87px;
+}
